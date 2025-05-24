@@ -1,0 +1,108 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e0e8ff;
+  background-image: url('images/pattern-background-desktop.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid green; */
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 25px;
+  box-shadow: 0px 20px 20px rgb(204, 212, 249);
+}
+.music-img-edit {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;  
+}
+.order-sum {
+  margin-top: 30px;
+  text-align: center;
+  line-height: 25px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+  font-size: 2.0rem ;
+  font-weight: 700;
+}
+.order-sum p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.20rem;
+}
+.icon-annual-change button {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #f8f9fe;
+}
+.icon-annual-change button {
+  display: flex;
+}
+.music-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.music-icon p {
+  color: #767b8f;
+  font-weight: bold;
+}
+.music-icon h3 {
+  font-weight: bold;
+}
+.btn button {
+  background-color: #382ae1;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  box-shadow: 5px 20px 15px rgba(220, 217, 247, 0.9);
+  margin-bottom: 25px;
+}
+.btn button:hover {
+  background-color: #766cef;
+  transition: background-color 0.3s ease;
+  transform: rotate(5deg);
+}
+.cancel p {
+  font-weight: bold;
+  color: #767b8f;
+}
+.change p {
+  font-weight: bold;
+  color: #6658d0;
+  font-size: 16px;
+}
+.change a:hover {
+  text-decoration: none;
+}
+.cancel p:hover {
+  color: black;
+  transition: color ease 0.41s;
+  transform: ease 0.8s;
+}
+
